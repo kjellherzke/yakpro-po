@@ -104,12 +104,12 @@ class Config
 
     function __construct()
     {
-        $this->comment .= "/*   __________________________________________________".PHP_EOL;
-        $this->comment .= "    |  Obfuscated by YAK Pro - Php Obfuscator  %-6.6s  |".PHP_EOL;
-        $this->comment .= "    |              on %s              |".PHP_EOL;
-        $this->comment .= "    |    GitHub: https://github.com/pk-fr/yakpro-po    |".PHP_EOL;
-        $this->comment .= "    |__________________________________________________|".PHP_EOL;
-        $this->comment .= "*/".PHP_EOL;
+        // $this->comment .= "/*   __________________________________________________".PHP_EOL;
+        // $this->comment .= "    |  Obfuscated by YAK Pro - Php Obfuscator  %-6.6s  |".PHP_EOL;
+        // $this->comment .= "    |              on %s              |".PHP_EOL;
+        // $this->comment .= "    |    GitHub: https://github.com/pk-fr/yakpro-po    |".PHP_EOL;
+        // $this->comment .= "    |__________________________________________________|".PHP_EOL;
+        // $this->comment .= "*/".PHP_EOL;
     }
 
     public function get_comment()
